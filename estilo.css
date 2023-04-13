@@ -1,0 +1,80 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #080606;
+  background-color: #4d4343;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #7789a4;
+  box-shadow: 0 0 5px rgba(7, 42, 124, 0.1);
+}
+
+h2 {
+  margin-top: 30px;
+  background-color: #2a2a2c;
+}
+ul#primera-lista li {
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+ul#segunda-lista li {
+  color: rgb(244, 234, 234);
+}
+
+
+.section {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+}
+
+.section:last-of-type {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.section h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #f2f1f1;
+}
+
+
+.section ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.imagen {
+  background-image: url(Imagenes/img.jpg);
+  height: 250px;
+  margin: -175px 0px 0px 500px ;
+  width: 270px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+td {
+  width: 150px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  font-weight: bold;
+}
+.first-row {
+  background-color: rgb(51, 51, 54);
+  color: white; 
+}
